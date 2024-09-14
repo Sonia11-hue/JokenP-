@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jokenpô - Sonia</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>JokenPô</h1>
+        <div class="buttons">
+            <button id="pedra" onclick="playHuman('rock')"><img src="https://img.icons8.com/plasticine/100/rock.png" alt="rock" /></button>
+            <button id="papel" onclick="playHuman('paper')"><img src="https://img.icons8.com/carbon-copy/100/paper.png" alt="paper" /></button>
+            <button id="tesoura" onclick="playHuman('scissors')"><img src="https://img.icons8.com/plasticine/100/scissors.png"
+                    alt="scissors" /></button>
+
+            <p class="result"></p>
+        </div>
+        <p class="minha-pontuação">Sua pontuação: <span id="humanScore">0</span></p>
+        <p class="sua-pontuação">Pontuação Sotware: <span id="machineScore">0</span></p>
+        <script src="scripts.js"></script>
+    </div>
+   
+
+</body>
+
+</html>
